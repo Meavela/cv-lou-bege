@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './assets/img/lou_bege.jpg';
+// import logo from './assets/img/logo.svg';
 import './App.css';
 import Button from '@mui/material/Button';
 
@@ -8,17 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is the CV of Lou BEGE
         </p>
-        <Button variant="contained">Hello World</Button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button variant="contained">Welcome !</Button>
       </header>
     </div>
   );
