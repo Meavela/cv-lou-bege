@@ -9,6 +9,7 @@ In the project directory, you can run:
 ### `npm run deploy`
 
 Deploy the app to the branch "gh-pages"
+Open [https://meavela.github.io/cv-lou-bege/](https://meavela.github.io/cv-lou-bege/) to view it in your browser.
 
 ### `npm start`
 
