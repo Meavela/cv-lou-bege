@@ -1,50 +1,37 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import logo from './assets/img/lou_bege.jpg';
-import {Grid, Button, Box} from '@mui/material';
-import $ from 'jquery';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
+import {Grid, Box} from '@mui/material';
+import Home from './screens/Home';
+import Formations from './screens/Formations';
+import ResponsiveAppBar from './navigation/Navigation';
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 
-function App() {
-  function toWhiteTheme(){
-    console.log("To white theme");
-    $(".App-header").css("backgroundColor", "white");
-    $(".App-header").css("color", "#282c34");
-  }
-  function toDarkTheme(){
-    console.log("To dark theme");
-    $(".App-header").css("backgroundColor", "#282c34");
-    $(".App-header").css("color", "white");
-  }
-  return (
-    <div className="App">
-      <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={2}  className="App-header">
-          <Grid item xs={10}>
             
-          </Grid>
-          <Grid item xs={2} style={{display: 'flex', alignItems: 'flex-end', flexDirection: 'row'}}>
-            <Grid item xs={6}>
-              <Button variant="contained" style={{width: '90%', color:"black", backgroundColor:"white"}} onClick={toWhiteTheme}><LightModeIcon></LightModeIcon></Button>
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Box sx={{ flexGrow: 1 }}>
+          <Grid container spacing={2} className="App-header">
+            <Grid item xs={12}>
+              {/* Header */}
+              <ResponsiveAppBar></ResponsiveAppBar>
             </Grid>
-            <Grid item xs={6} >
-              <Button variant="contained" style={{width: '90%', color:"white", backgroundColor:"black"}} onClick={toDarkTheme}><DarkModeIcon></DarkModeIcon></Button>
+            <Grid item xs={12}>
+              {/* Main */}
+              <Routes>
+                <Route exact path='/' element={< Home />}></Route>
+                <Route exact path='/formations' element={< Formations />}></Route>
+              </Routes>
+            </Grid>
+            <Grid item xs={12}>
+              {/* Bottom */}
             </Grid>
           </Grid>
-          <Grid item xs={12}>
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                This is the CV of Lou BEGE
-              </p>
-              <Button variant="contained">Welcome !</Button>
-            </header>
-          </Grid>
-        </Grid>
-      </Box>
-    </div>
-  );
+        </Box>
+      </Router>
+    );
+  }
 }
 
 export default App;
