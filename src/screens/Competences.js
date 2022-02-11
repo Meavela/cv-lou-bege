@@ -17,34 +17,38 @@ const competences = [
 
 function Competences() {
     return (
-        <div className="App-header">
-            <Grid container className="Legend-Competences">
-                <Grid item className="Legend-Competences-Details">
-                    A : Maitrise
+        <Grid className="App-header">
+            <Grid item>
+                <h2 style={{textAlign: "center"}}>Langages</h2>
+                <Grid item className="Competences">
+                    {competences.map((comp) => (
+                        RenderCompetenceCategory(comp, 'language')
+                    ))}
                 </Grid>
-                <Grid item className="Legend-Competences-Details">
-                    B : Compétences professionnelles
-                </Grid>
-                <Grid item className="Legend-Competences-Details">
-                    C : Compétences professionnelles limitées
-                </Grid>
-                <Grid item className="Legend-Competences-Details">
-                    D : Notions
+                <h2 style={{textAlign: "center"}}>Outils</h2>
+                <Grid item className="Competences">
+                    {competences.map((comp) => (
+                        RenderCompetenceCategory(comp, 'tool')
+                    ))}
                 </Grid>
             </Grid>
-            <h2>Langages</h2>
-            <div className="Competences">
-                {competences.map((comp) => (
-                    RenderCompetenceCategory(comp, 'language')
-                ))}
-            </div>
-            <h2>Outils</h2>
-            <div className="Competences">
-                {competences.map((comp) => (
-                    RenderCompetenceCategory(comp, 'tool')
-                ))}
-            </div>
-        </div>
+            <footer style={{position: "fixed", bottom: "0", width: "100%", backgroundColor: "#282c34"}}>            
+                <Grid className="Legend-Competences">
+                    <Grid item className="Legend-Competences-Details">
+                        A : Maitrise
+                    </Grid>
+                    <Grid item className="Legend-Competences-Details">
+                        B : Compétences professionnelles
+                    </Grid>
+                    <Grid item className="Legend-Competences-Details">
+                        C : Compétences professionnelles limitées
+                    </Grid>
+                    <Grid item className="Legend-Competences-Details">
+                        D : Notions
+                    </Grid>
+                </Grid>
+            </footer>
+        </Grid>
     );
 }
 

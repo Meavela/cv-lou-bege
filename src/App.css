@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #282c34 !important;
+  position:relative;
 }
 
 body{
@@ -51,12 +52,13 @@ body{
   display: flex !important;
   flex-direction: row !important;
   font-style: italic;
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 25px;
+  justify-content: flex-start;
+  width: 100%;
 }
 .Legend-Competences-Details{
-  margin-left:auto !important;
   margin-right:auto !important;
+  margin-left:auto !important;
 }
 .Competences
 {
