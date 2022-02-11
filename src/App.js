@@ -20,8 +20,8 @@ class App extends Component {
             <Grid item xs={12}>
               {/* Main */}
               <Routes>
-                <Route exact path='/' element={< Home />}></Route>
-                <Route exact path='/formations' element={< Formations />}></Route>
+                <Route exact path='/cv-lou-bege/' element={< Home />}></Route>
+                <Route exact path='/cv-lou-bege/formations' element={< Formations />}></Route>
               </Routes>
             </Grid>
             <Grid item xs={12}>

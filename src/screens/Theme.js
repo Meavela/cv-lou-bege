@@ -9,11 +9,13 @@ function ThemeColor() {
     function toWhiteTheme(){
         console.log("To white theme");
         $(".App-header").css("backgroundColor", "white");
+        $("body").css("backgroundColor", "white");
         $(".App-header").css("color", "#282c34");
     }
     function toDarkTheme(){
         console.log("To dark theme");
         $(".App-header").css("backgroundColor", "#282c34");
+        $("body").css("backgroundColor", "#282c34");
         $(".App-header").css("color", "white");
     }
     return (

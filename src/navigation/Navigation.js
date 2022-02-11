@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 import {Grid, Box} from '@mui/material';
 import ThemeColor from '../screens/Theme';
 
-const pages = [{"url": "/", "title":"A propos"},
-                {"url": "/formations", "title":"Formations"},
-                {"url": "/experiences", "title":"Expériences"},
-                {"url": "/competences", "title":"Compétences"},
-                {"url": "/realisations", "title":"Réalisations"},
+const pages = [{"url": "/cv-lou-bege/", "title":"A propos"},
+                {"url": "/cv-lou-bege/formations", "title":"Formations"},
+                {"url": "/cv-lou-bege/experiences", "title":"Expériences"},
+                {"url": "/cv-lou-bege/competences", "title":"Compétences"},
+                {"url": "/cv-lou-bege/realisations", "title":"Réalisations"},
             ];
 
 function Navigation() {

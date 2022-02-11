@@ -3,6 +3,11 @@
   background-color: #282c34 !important;
 }
 
+body{
+  background-color: #282c34;
+  font-family: 'Ubuntu';
+}
+
 .App-logo {
   height: 40vmin;
   margin-left: auto;
@@ -11,6 +16,7 @@
 
 .componentNavigation{
   color: white;
+  font-size: 25px;
   text-decoration: none;
 }
 
@@ -23,4 +29,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Profile-Grid-Infos {
+  padding-bottom: 20px;
+  display : flex;
+}
+
+.Profile-Grid-Infos-Item {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Profile-Grid-Infos-Details{
+  color: grey
 }
