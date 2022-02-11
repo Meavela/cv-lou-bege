@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/cv-lou-bege/static/css/main.034208bc.css",
-    "main.js": "/cv-lou-bege/static/js/main.988f2f1e.js",
+    "main.css": "/cv-lou-bege/static/css/main.88360638.css",
+    "main.js": "/cv-lou-bege/static/js/main.833a3ac3.js",
     "static/js/787.dc538fe8.chunk.js": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js",
-    "static/media/lou_bege.jpg": "/cv-lou-bege/static/media/lou_bege.0bd1186623a28785b390.jpg",
+    "static/media/CV_Lou_BEGE.pdf": "/cv-lou-bege/static/media/CV_Lou_BEGE.2f95b77c101ddee8ee00.pdf",
+    "static/media/lou_bege.jpg": "/cv-lou-bege/static/media/lou_bege.00f9255250760e741d61.jpg",
     "index.html": "/cv-lou-bege/index.html",
-    "main.034208bc.css.map": "/cv-lou-bege/static/css/main.034208bc.css.map",
-    "main.988f2f1e.js.map": "/cv-lou-bege/static/js/main.988f2f1e.js.map",
+    "main.88360638.css.map": "/cv-lou-bege/static/css/main.88360638.css.map",
+    "main.833a3ac3.js.map": "/cv-lou-bege/static/js/main.833a3ac3.js.map",
     "787.dc538fe8.chunk.js.map": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.034208bc.css",
-    "static/js/main.988f2f1e.js"
+    "static/css/main.88360638.css",
+    "static/js/main.833a3ac3.js"
   ]
 }
