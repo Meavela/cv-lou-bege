@@ -3,8 +3,11 @@ import './App.css';
 import {Grid, Box} from '@mui/material';
 import Home from './screens/Home';
 import Formations from './screens/Formations';
+import Competences from './screens/Competences';
+import Experiences from './screens/Experiences';
+import Realisations from './screens/Realisations';
 import ResponsiveAppBar from './navigation/Navigation';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 
             
 class App extends Component {
@@ -22,6 +25,9 @@ class App extends Component {
               <Routes>
                 <Route exact path='/cv-lou-bege/' element={< Home />}></Route>
                 <Route exact path='/cv-lou-bege/formations' element={< Formations />}></Route>
+                <Route exact path='/cv-lou-bege/competences' element={< Competences />}></Route>
+                <Route exact path='/cv-lou-bege/experiences' element={< Experiences />}></Route>
+                <Route exact path='/cv-lou-bege/realisations' element={< Realisations />}></Route>
               </Routes>
             </Grid>
             <Grid item xs={12}>
