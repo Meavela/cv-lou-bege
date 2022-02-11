@@ -47,6 +47,17 @@ body{
 }
 
 /* Progress bar */
+.Legend-Competences{
+  display: flex !important;
+  flex-direction: row !important;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.Legend-Competences-Details{
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
 .Competences
 {
   /* position:relative; */

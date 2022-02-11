@@ -18,17 +18,17 @@ const competences = [
 function Competences() {
     return (
         <div className="App-header">
-            <Grid container style={{display:"flex",flexDirection:"row", fontStyle: "italic", fontSize: "20px", marginTop: "15px"}}>
-                <Grid item style={{marginLeft:"auto",marginRight:"auto"}}>
+            <Grid container className="Legend-Competences">
+                <Grid item className="Legend-Competences-Details">
                     A : Maitrise
                 </Grid>
-                <Grid item style={{marginLeft:"auto",marginRight:"auto"}}>
+                <Grid item className="Legend-Competences-Details">
                     B : Compétences professionnelles
                 </Grid>
-                <Grid item style={{marginLeft:"auto",marginRight:"auto"}}>
+                <Grid item className="Legend-Competences-Details">
                     C : Compétences professionnelles limitées
                 </Grid>
-                <Grid item style={{marginLeft:"auto",marginRight:"auto"}}>
+                <Grid item className="Legend-Competences-Details">
                     D : Notions
                 </Grid>
             </Grid>
