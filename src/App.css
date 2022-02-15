@@ -46,6 +46,23 @@ body{
 .Profile-Grid-Infos-Details{
   color: grey
 }
+/* Realisations */
+.Realisation-Details{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position:relative;
+  width:400px;
+  margin: 30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:300px;
+  margin-top: 20px !important;
+  border-radius:4px;
+  text-align:center;
+  overflow:hidden;
+  transition:0.5s;
+}
 
 /* Progress bar */
 .Legend-Competences{
@@ -72,7 +89,7 @@ body{
 .Competences .card
 {
   position:relative;
-  width:250px;
+  width: 250px;
   margin: 30px;
   background:linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
   display:flex;
