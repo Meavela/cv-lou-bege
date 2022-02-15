@@ -18,7 +18,7 @@ const competences = [
 function Competences() {
     return (
         <Grid className="App-header">
-            <Grid item>
+            <Grid item style={{zIndex: "15"}}>
                 <h2 style={{textAlign: "center"}}>Langages</h2>
                 <Grid item className="Competences">
                     {competences.map((comp) => (
@@ -32,7 +32,7 @@ function Competences() {
                     ))}
                 </Grid>
             </Grid>
-            <footer style={{position: "fixed", bottom: "0", width: "100%", backgroundColor: "#282c34"}}>            
+            <footer style={{position: "fixed", bottom: "0", width: "100%", backgroundColor: "#282c34", zIndex: "99"}}>            
                 <Grid className="Legend-Competences">
                     <Grid item className="Legend-Competences-Details">
                         A : Maitrise

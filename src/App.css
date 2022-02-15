@@ -90,7 +90,7 @@ body{
 {
   position:relative;
   width: 250px;
-  margin: 30px;
+  margin-right: 30px;
   background:linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
   display:flex;
   justify-content:center;

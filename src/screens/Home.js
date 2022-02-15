@@ -54,7 +54,7 @@ function Home() {
                                 <WebIcon></WebIcon> LINKEDIN
                             </Grid>
                             <Grid item xs={8} className='Profile-Grid-Infos-Details'>
-                                <a href='https://linkedin.com/in/lou-bege/' target="_blank" style={{color: '#e04136'}}>linkedin.com/in/lou-bege/</a>
+                                <a href='https://linkedin.com/in/lou-bege/' target="_blank" rel="noopener noreferrer" style={{color: '#e04136'}}>linkedin.com/in/lou-bege/</a>
                             </Grid>
                         </Grid>
                     </Grid>

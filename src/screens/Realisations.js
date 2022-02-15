@@ -23,7 +23,7 @@ class Realisations extends React.Component {
                     {
                         listOfImages.map((image, index) =>  
                             <Grid item className="Realisation-Details" key={index}> 
-                                <img src={image} style={{width:"100%", borderRadius: "50px"}}></img>
+                                <img src={image} style={{width:"100%", borderRadius: "50px"}} alt={image}></img>
                             </Grid>  
                         )
                     }
