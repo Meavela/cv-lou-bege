@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cv-lou-bege/precache-manifest.4f27fab1f420992c72be90d3506bb28e.js"
+  "/cv-lou-bege/precache-manifest.1863c8eb1215e5782bcf0eefdb7ddb48.js"
 );
 
 self.addEventListener('message', (event) => {
