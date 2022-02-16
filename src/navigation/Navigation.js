@@ -6,6 +6,7 @@ import '../App.css';
 import { Link } from "react-router-dom";
 import {Grid, Box} from '@mui/material';
 import ThemeColor from '../screens/Theme';
+import Traduction from '../screens/Traduction';
 
 const pages = [{"url": "/cv-lou-bege/", "title":"A propos"},
                 {"url": "/cv-lou-bege/formations", "title":"Formations"},
@@ -31,6 +32,7 @@ function Navigation() {
                     
                     <Grid item xs={2}>
                         {/* <ThemeColor></ThemeColor> */}
+                        {/* <Traduction></Traduction> */}
                     </Grid>
                 </Toolbar>
             </Container>

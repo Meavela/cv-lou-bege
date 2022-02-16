@@ -30,9 +30,9 @@ class App extends Component {
                 <Route exact path='/cv-lou-bege/realisations' element={< Realisations />}></Route>
               </Routes>
             </Grid>
-            <Grid item xs={12}>
-              {/* Bottom */}
-            </Grid>
+            {/* <Grid item xs={12}>
+            
+            </Grid> */}
           </Grid>
         </Box>
       </Router>
