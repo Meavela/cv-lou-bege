@@ -291,7 +291,7 @@ body{
 
 
 /* Responsive part -- END*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .Profile-Card{
     width: 90vw;
   }
@@ -349,6 +349,8 @@ body{
   .Competences .card{
     width: 150px;
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .Competences .percent{
     width: 100px;
