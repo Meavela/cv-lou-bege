@@ -145,6 +145,11 @@ body{
   transition:0.5s;
 }
 
+.Realisation-Image{
+  width:100%;
+  border-Radius: 50px;
+}
+
 /* Progress bar */
 .Legend-Competences{
   display: flex !important;
@@ -361,5 +366,12 @@ body{
   }
   .Competences .full{
     display: none;
+  }
+  .Realisation-Image{
+    border-radius: 25px;
+  }
+  .Realisation-Details{
+    width: 200px;
+    height: 150px;
   }
 }
