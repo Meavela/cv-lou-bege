@@ -16,9 +16,9 @@ class Realisations extends React.Component {
 
     render(){
         return (
-            <Grid className="App-header">
+            <Grid className="App-header" >
                 <Grid item>
-                    <h2 style={{textAlign: "center"}}>Images 3D</h2>
+                    <h2 className='Page-Top-Title'>Images 3D</h2>
                     <Grid item className="Competences">
                     {
                         listOfImages.map((image, index) =>  

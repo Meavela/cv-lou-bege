@@ -8,8 +8,6 @@
   background-color: #373d49 !important;
   top: 8% !important;
   left: 25% !important;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   width: 50vw;
 }
 
@@ -56,6 +54,11 @@ body{
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.Page-Top-Title{
+  text-Align: center;
+  margin-Top: 5vw
 }
 
 .Profile-Card{
@@ -328,5 +331,8 @@ body{
   .AppBar-Box-Item{
     margin-right: 2vw !important;
     margin-left: 2vw !important;
+  }
+  .Page-Top-Title{
+    margin-Top: 10vw
   }
 }

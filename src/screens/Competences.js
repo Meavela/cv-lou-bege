@@ -19,7 +19,7 @@ function Competences() {
     return (
         <Grid className="App-header">
             <Grid item style={{zIndex: "15"}}>
-                <h2 style={{textAlign: "center"}}>Langages</h2>
+                <h2 className='Page-Top-Title'>Langages</h2>
                 <Grid item className="Competences">
                     {competences.map((comp) => (
                         RenderCompetenceCategory(comp, 'language')
