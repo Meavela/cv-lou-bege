@@ -7,9 +7,10 @@
 #menu-appbar .MuiPaper-root{
   background-color: #373d49 !important;
   top: 8% !important;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20vw;
+  left: 25% !important;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  width: 50vw;
 }
 
 #menu-appbar .MuiPaper-root a{
@@ -18,14 +19,10 @@
   margin-left: auto;
   padding: 0 !important;
   margin-right: auto;
-  font-size: 2.3vw;
+  font-size: 3vw;
 }
 #menu-appbar .MuiPaper-root .MuiMenuItem-root{
   padding: 0 !important;
-}
-
-.AppBar-Titles{
-
 }
 
 .AppBar .ReduceScreen{

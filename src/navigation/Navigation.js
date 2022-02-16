@@ -79,8 +79,5 @@ function Navigation() {
     );
 }
 
-const styles = [{
-
-}];
 
 export default Navigation;
