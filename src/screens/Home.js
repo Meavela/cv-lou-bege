@@ -13,12 +13,12 @@ function Home() {
         <Container maxWidth="large">
         <Card className="Profile-Card">
             <CardMedia component="img" height="50vw" style={{backgroundColor: '#e04136'}} />
-            <CardContent>
+            <CardContent style={{paddingBottom: '0'}}>
                 <Grid container spacing={1}>
                     <Grid item xs={4} style={{textAlign: 'center'}}>
                         <img src={logo} className="App-logo" alt="logo" />
                     </Grid>
-                    <Grid item xs={8} style={{textAlign: 'left', paddingLeft: '3vw'}}>
+                    <Grid item xs={8} className='Profile-Grid-Separation'>
                         <Grid item xs={12} className='Profile-Grid-Name'>
                             Lou BÉGÉ, <span className='Profile-Grid-Age'>22 ans</span>
                         </Grid>
