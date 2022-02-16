@@ -172,6 +172,7 @@ body{
   position:relative;
   width: 250px;
   margin-right: 30px;
+  margin-bottom: 30px;
   background:linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
   display:flex;
   justify-content:center;
@@ -265,6 +266,13 @@ body{
   height:150px;
   z-index:1000;
 }
+
+.Competences .full{
+  display: block;
+}
+.Competences .reduce{
+  display: none;
+}
 .Competences svg circle
 {
   width:100%;
@@ -334,5 +342,22 @@ body{
   }
   .Page-Top-Title{
     margin-Top: 10vw
+  }
+  .Legend-Competences-Details{
+    font-size: 12px;
+  }
+  .Competences .card{
+    width: 150px;
+    height: 200px;
+  }
+  .Competences .percent{
+    width: 100px;
+    height: 100px;
+  }
+  .Competences .reduce{
+    display: block;
+  }
+  .Competences .full{
+    display: none;
   }
 }
