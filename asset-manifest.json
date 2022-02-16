@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-lou-bege/static/css/main.d5dd0c14.css",
-    "main.js": "/cv-lou-bege/static/js/main.4fd88d89.js",
+    "main.css": "/cv-lou-bege/static/css/main.157e23a9.css",
+    "main.js": "/cv-lou-bege/static/js/main.4d00ef91.js",
     "static/js/787.dc538fe8.chunk.js": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js",
     "static/media/sci-fi particles.mp4": "/cv-lou-bege/static/media/sci-fi particles.ed833f0785bd5a457415.mp4",
     "static/media/candy animation.mp4": "/cv-lou-bege/static/media/candy animation.e0f39b51de2c580b7ff1.mp4",
@@ -21,6 +21,7 @@
     "static/media/oxygen_container.png": "/cv-lou-bege/static/media/oxygen_container.45bf14548a7e2ce056a9.png",
     "static/media/sneakers.png": "/cv-lou-bege/static/media/sneakers.e6746e900bd8b3011a9a.png",
     "static/media/pokeballs_style.png": "/cv-lou-bege/static/media/pokeballs_style.22a990f1906d27fb2f90.png",
+    "static/media/robothand.png": "/cv-lou-bege/static/media/robothand.8f2bbddad03c4498024a.png",
     "static/media/dice.png": "/cv-lou-bege/static/media/dice.476379f8dc3419cf5682.png",
     "static/media/logo3d.png": "/cv-lou-bege/static/media/logo3d.e365415faa9ba381f4f0.png",
     "static/media/monkey on fire.mp4": "/cv-lou-bege/static/media/monkey on fire.5ed19cfbc8f8348ae1d2.mp4",
@@ -36,12 +37,12 @@
     "static/media/CV_Lou_BEGE.pdf": "/cv-lou-bege/static/media/CV_Lou_BEGE.2f95b77c101ddee8ee00.pdf",
     "static/media/lou_bege.jpg": "/cv-lou-bege/static/media/lou_bege.00f9255250760e741d61.jpg",
     "index.html": "/cv-lou-bege/index.html",
-    "main.d5dd0c14.css.map": "/cv-lou-bege/static/css/main.d5dd0c14.css.map",
-    "main.4fd88d89.js.map": "/cv-lou-bege/static/js/main.4fd88d89.js.map",
+    "main.157e23a9.css.map": "/cv-lou-bege/static/css/main.157e23a9.css.map",
+    "main.4d00ef91.js.map": "/cv-lou-bege/static/js/main.4d00ef91.js.map",
     "787.dc538fe8.chunk.js.map": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5dd0c14.css",
-    "static/js/main.4fd88d89.js"
+    "static/css/main.157e23a9.css",
+    "static/js/main.4d00ef91.js"
   ]
 }
