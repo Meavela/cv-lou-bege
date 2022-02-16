@@ -10,14 +10,14 @@ body{
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   margin-left: auto;
   margin-right: auto;
 }
 
 .componentNavigation{
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -40,11 +40,12 @@ body{
 
 .Profile-Grid-Infos-Item {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .Profile-Grid-Infos-Details{
-  color: grey
+  color: grey;
+  font-size: 20px;
 }
 /* Realisations */
 .Realisation-Details{

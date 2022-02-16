@@ -10,21 +10,21 @@ import WebIcon from '@mui/icons-material/Language';
 
 function Home() {
     return (
-        <Card sx={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 0 10px 5px #89dcfa' }}>
+        <Card sx={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 0 10px 5px #89dcfa' }}>
             <CardMedia component="img" height="50" style={{backgroundColor: '#e04136'}} />
             <CardContent>
                 <Grid container spacing={1}>
                     <Grid item xs={4} style={{textAlign: 'center'}}>
                         <img src={logo} className="App-logo" alt="logo" style={{borderRadius: '15px'}} />
                     </Grid>
-                    <Grid item xs={8} style={{textAlign: 'left'}}>
-                        <Grid item xs={12} style={{paddingBottom: "10px", fontSize : "60px", paddingTop: "10px"}}>
-                            Lou BÉGÉ, <span style={{fontSize: "30px"}}>22 ans</span>
+                    <Grid item xs={8} style={{textAlign: 'left', paddingLeft: '80px'}}>
+                        <Grid item xs={12} style={{paddingBottom: "10px", fontSize : "45px", paddingTop: "10px"}}>
+                            Lou BÉGÉ, <span style={{fontSize: "20px"}}>22 ans</span>
                         </Grid>
-                        <Grid item xs={12} style={{paddingBottom: "15px", fontSize : "25px", fontStyle: "italic"}}>
+                        <Grid item xs={12} style={{paddingBottom: "15px", fontSize : "15px", fontStyle: "italic"}}>
                             Alternante développeuse .NET
                         </Grid>
-                        <hr style={{width: '70%', marginLeft: 0}}></hr>
+                        <hr style={{width: '80%', marginLeft: 0}}></hr>
                         <Grid item xs={12} className='Profile-Grid-Infos' style={{paddingTop: "15px"}}>
                             <Grid item xs={4} className='Profile-Grid-Infos-Item'>
                                 <WorkIcon></WorkIcon> ENTREPRISE
