@@ -11,18 +11,18 @@ import WebIcon from '@mui/icons-material/Language';
 function Home() {
     return (
         <Container maxWidth="large">
-        <Card sx={{ width: '45vw', marginLeft: 'auto', marginRight: 'auto', boxShadow: '0 0 10px 5px #89dcfa' }}>
+        <Card className="Profile-Card">
             <CardMedia component="img" height="50vw" style={{backgroundColor: '#e04136'}} />
             <CardContent>
                 <Grid container spacing={1}>
                     <Grid item xs={4} style={{textAlign: 'center'}}>
-                        <img src={logo} className="App-logo" alt="logo" style={{borderRadius: '15px'}} />
+                        <img src={logo} className="App-logo" alt="logo" />
                     </Grid>
                     <Grid item xs={8} style={{textAlign: 'left', paddingLeft: '3vw'}}>
-                        <Grid item xs={12} style={{paddingBottom: "10px", fontSize : "2.5vw", paddingTop: ".9vw"}}>
-                            Lou BÉGÉ, <span style={{fontSize: ".9vw"}}>22 ans</span>
+                        <Grid item xs={12} className='Profile-Grid-Name'>
+                            Lou BÉGÉ, <span className='Profile-Grid-Age'>22 ans</span>
                         </Grid>
-                        <Grid item xs={12} style={{paddingBottom: ".8vw", fontSize : ".75vw", fontStyle: "italic"}}>
+                        <Grid item xs={12} className='Profile-Grid-Poste'>
                             Alternante développeuse .NET
                         </Grid>
                         <hr style={{width: '20vw', marginLeft: 0}}></hr>
@@ -62,7 +62,7 @@ function Home() {
                 </Grid>
             </CardContent>
             <CardActions style={{backgroundColor: 'white'}}>
-                <Button size="large" variant="contained" href={cv} download="lou-bege-cv" style={{marginRight: 'auto', marginLeft: 'auto', backgroundColor: '#e04136', fontSize : "1vw"}} startIcon={<DownloadIcon  className='Profile-Grid-Icons'/>}>
+                <Button size="large" className='Profile-Download-Button' variant="contained" href={cv} download="lou-bege-cv" startIcon={<DownloadIcon  className='Profile-Grid-Icons'/>}>
                     Télécharger CV
                 </Button>
             </CardActions>

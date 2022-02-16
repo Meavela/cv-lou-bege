@@ -30,7 +30,7 @@ function Navigation() {
                     </Box>
                     
                     <Grid item xs={2}>
-                        <ThemeColor></ThemeColor>
+                        {/* <ThemeColor></ThemeColor> */}
                     </Grid>
                 </Toolbar>
             </Container>
