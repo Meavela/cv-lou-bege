@@ -3,16 +3,16 @@
   background-color: #282c34 !important;
   position:relative;
 }
-.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+
+#menu-appbar .MuiPaper-root{
   background-color: #373d49 !important;
-  /* left: 10px !important; */
   top: 8% !important;
   margin-left: auto;
   margin-right: auto;
   width: 20vw;
 }
 
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root a{
+#menu-appbar .MuiPaper-root a{
   color: white !important;
   text-decoration: none;
   margin-left: auto;
@@ -20,7 +20,7 @@
   margin-right: auto;
   font-size: 2.3vw;
 }
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+#menu-appbar .MuiPaper-root .MuiMenuItem-root{
   padding: 0 !important;
 }
 

@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import '../App.css';
-import $ from 'jquery';
 import { Link } from "react-router-dom";
 import {Grid, Box, Button} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
