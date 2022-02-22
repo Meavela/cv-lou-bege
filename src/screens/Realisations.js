@@ -6,10 +6,25 @@ var listOfImages =[];
 var listOfVideos =[];
 
 class Realisations extends React.Component {
+    ////
+    // Get the URL for each file in the folder
+    // Call for each type of file
+    // .mp4 , .png
+    ////
     importAll(r) {
         return r.keys().map(r);
     }
-    componentWillMount() {
+    
+    ////
+    // Get the name of the file from the URL
+    ////
+    displayName(url){
+        var split = url.split("/")[4].split(".")[0];
+        return split;
+    }
+
+    constructor(props){
+        super(props);
         listOfImages = this.importAll(require.context('../assets/realisations', false, /\.(png)$/));
         listOfVideos = this.importAll(require.context('../assets/realisations', false, /\.(mp4)$/));
     }
@@ -24,6 +39,7 @@ class Realisations extends React.Component {
                         listOfImages.map((image, index) =>  
                             <Grid item className="Realisation-Details" key={index}> 
                                 <img src={image} className="Realisation-Image" alt={image}></img>
+                                <p style={{fontStyle: "italic", marginTop: "0"}}>{this.displayName(image)}</p>
                             </Grid>  
                         )
                     }
@@ -36,6 +52,7 @@ class Realisations extends React.Component {
                                 <video controls style={{width:"100%"}}>
                                     <source src={video} type="video/mp4" />
                                 </video>
+                                <p style={{fontStyle: "italic", marginTop: "0"}}>{this.displayName(video)}</p>
                             </Grid>  
                         )
                     }

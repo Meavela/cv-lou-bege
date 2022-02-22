@@ -138,13 +138,14 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  height:15vw;
+  height:16.5vw;
   /* height:300px; */
-  margin-top: 20px !important;
+  /* margin-top: 20px !important; */
   border-radius:4px;
   text-align:center;
   overflow:hidden;
   transition:0.5s;
+  flex-direction: column !important;
 }
 
 .Realisation-Image{
@@ -173,6 +174,7 @@ body{
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 .Competences .card
 {
