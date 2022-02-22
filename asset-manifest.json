@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-lou-bege/static/css/main.9933c25f.css",
-    "main.js": "/cv-lou-bege/static/js/main.1dbf12cd.js",
+    "main.js": "/cv-lou-bege/static/js/main.278a73e4.js",
     "static/js/787.dc538fe8.chunk.js": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js",
     "static/media/sci-fi particles.mp4": "/cv-lou-bege/static/media/sci-fi particles.ed833f0785bd5a457415.mp4",
     "static/media/candy animation.mp4": "/cv-lou-bege/static/media/candy animation.e0f39b51de2c580b7ff1.mp4",
@@ -14,9 +14,12 @@
     "static/media/tea.png": "/cv-lou-bege/static/media/tea.cd486be8537ab88032b7.png",
     "static/media/infinite animation.mp4": "/cv-lou-bege/static/media/infinite animation.1112b1f708fc993667d8.mp4",
     "static/media/satisfying.mp4": "/cv-lou-bege/static/media/satisfying.d2de130a6ca548b94b65.mp4",
+    "static/media/spaceship animation.mp4": "/cv-lou-bege/static/media/spaceship animation.4733fb53ab5a66b7f8f6.mp4",
+    "static/media/spaceship animation smooth version.mp4": "/cv-lou-bege/static/media/spaceship animation smooth version.64285919b5b35df3e9d6.mp4",
     "static/media/cartoon car.png": "/cv-lou-bege/static/media/cartoon car.daee8f0fdb8d2a890d77.png",
     "static/media/santa _ gifts.png": "/cv-lou-bege/static/media/santa _ gifts.08e1210602020666df9d.png",
     "static/media/cartoon_building.png": "/cv-lou-bege/static/media/cartoon_building.b20d431da9877512e1d8.png",
+    "static/media/ornament.png": "/cv-lou-bege/static/media/ornament.66b055d33b531b40d78c.png",
     "static/media/boolean modeling.png": "/cv-lou-bege/static/media/boolean modeling.0fcfac4a44209a6922a7.png",
     "static/media/oxygen_container.png": "/cv-lou-bege/static/media/oxygen_container.45bf14548a7e2ce056a9.png",
     "static/media/sneakers.png": "/cv-lou-bege/static/media/sneakers.e6746e900bd8b3011a9a.png",
@@ -38,11 +41,11 @@
     "static/media/lou_bege.jpg": "/cv-lou-bege/static/media/lou_bege.00f9255250760e741d61.jpg",
     "index.html": "/cv-lou-bege/index.html",
     "main.9933c25f.css.map": "/cv-lou-bege/static/css/main.9933c25f.css.map",
-    "main.1dbf12cd.js.map": "/cv-lou-bege/static/js/main.1dbf12cd.js.map",
+    "main.278a73e4.js.map": "/cv-lou-bege/static/js/main.278a73e4.js.map",
     "787.dc538fe8.chunk.js.map": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9933c25f.css",
-    "static/js/main.1dbf12cd.js"
+    "static/js/main.278a73e4.js"
   ]
 }
