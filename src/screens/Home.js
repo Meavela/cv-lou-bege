@@ -7,16 +7,29 @@ import PositionIcon from '@mui/icons-material/Place';
 import EmailIcon from '@mui/icons-material/Email';
 import WorkIcon from '@mui/icons-material/Work';
 import WebIcon from '@mui/icons-material/Language';
+import * as Animations from 'react-animations';
+import { StyleSheet, css } from 'aphrodite';
 
 function Home() {
+    const styles = StyleSheet.create({
+        cardAnimation: {
+            animationName: Animations.bounceIn,
+            animationDuration: '1s'
+        },
+        downloadAnimation: {
+            animationName: Animations.rotateIn,
+            animationDuration: '1s'
+        }
+    });
+
     return (
-        <Container maxWidth="large">
+        <Container maxWidth="large" className={css(styles.cardAnimation)}>
         <Card className="Profile-Card">
             <CardMedia component="img" height="50vw" style={{backgroundColor: '#e04136'}} />
             <CardContent style={{paddingBottom: '0'}}>
                 <Grid container spacing={1}>
-                    <Grid item xs={4} style={{textAlign: 'center'}}>
-                        <img src={logo} className="App-logo" alt="logo" />
+                    <Grid item xs={4} style={{textAlign: 'center'}} >
+                        <img src={logo} className="App-logo" alt="logo"/>
                     </Grid>
                     <Grid item xs={8} className='Profile-Grid-Separation'>
                         <Grid item xs={12} className='Profile-Grid-Name'>
@@ -62,7 +75,7 @@ function Home() {
                 </Grid>
             </CardContent>
             <CardActions style={{backgroundColor: 'white'}}>
-                <Button size="large" className='Profile-Download-Button' variant="contained" href={cv} download="lou-bege-cv" startIcon={<DownloadIcon  className='Profile-Grid-Icons'/>}>
+                <Button size="large" className={css(styles.downloadAnimation)+" Profile-Download-Button"} variant="contained" href={cv} download="lou-bege-cv" startIcon={<DownloadIcon  className='Profile-Grid-Icons'/>}>
                     Télécharger CV
                 </Button>
             </CardActions>
