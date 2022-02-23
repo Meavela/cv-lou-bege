@@ -47,7 +47,7 @@ class Realisations extends React.Component {
                     {
                         listOfImages.map((image, index) =>  
                             <Grid item className={css(styles.imageAnimation)+" Realisation-Details"} key={index}> 
-                                <img src={image} className=" Realisation-Image" alt={image}></img>
+                                <img src={image} className="Realisation-Image" alt={image}></img>
                                 <p style={{fontStyle: "italic", marginTop: "0"}}>{this.displayName(image)}</p>
                             </Grid>  
                         )
