@@ -1,9 +1,18 @@
 import * as React from 'react';
 import { Grid } from '@mui/material';
 import '../App.css';
+import * as Animations from 'react-animations';
+import { StyleSheet, css } from 'aphrodite';
 
 var listOfImages =[];
 var listOfVideos =[];
+
+const styles = StyleSheet.create({
+    imageAnimation: {
+        animationName: Animations.rotateIn,
+        animationDuration: '1s'
+    }
+});
 
 class Realisations extends React.Component {
     ////
@@ -37,8 +46,8 @@ class Realisations extends React.Component {
                     <Grid item className="Competences">
                     {
                         listOfImages.map((image, index) =>  
-                            <Grid item className="Realisation-Details" key={index}> 
-                                <img src={image} className="Realisation-Image" alt={image}></img>
+                            <Grid item className={css(styles.imageAnimation)+"Realisation-Details"} key={index}> 
+                                <img src={image} className=" Realisation-Image" alt={image}></img>
                                 <p style={{fontStyle: "italic", marginTop: "0"}}>{this.displayName(image)}</p>
                             </Grid>  
                         )
