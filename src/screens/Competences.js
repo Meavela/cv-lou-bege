@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {Grid} from '@mui/material';
 import '../App.css';
+import * as Animations from 'react-animations';
+import { StyleSheet, css } from 'aphrodite';
 
 const competences = [
     {"id":"0","title": "C#", "pourcentage":"A", "colorstroke": "44", "category": "language"},
@@ -29,6 +31,12 @@ const reduceCompetences = [
             ];
 
 function Competences() {
+    const styles = StyleSheet.create({
+        footerAnimation: {
+            animationName: Animations.shake,
+            animationDuration: '1s'
+        }
+    });
     return (
         <Grid className="App-header">
             <Grid item style={{zIndex: "15"}}>
@@ -45,7 +53,7 @@ function Competences() {
                     ))}
                 </Grid>
             </Grid>
-            <footer style={{position: "fixed", bottom: "0", width: "100%", backgroundColor: "#282c34", zIndex: "99"}}>            
+            <footer className={css(styles.footerAnimation)} style={{position: "fixed", bottom: "0", width: "100%", backgroundColor: "#282c34", zIndex: "99"}}>            
                 <Grid className="Legend-Competences">
                     <Grid item className="Legend-Competences-Details">
                         A : Maitrise
@@ -66,11 +74,19 @@ function Competences() {
 }
 
 function RenderCompetenceCategory(comp, categorySelected){
+    const styles = StyleSheet.create({
+        cardAnimation: {
+            animationName: Animations.fadeIn,
+            animationDuration: '2s'
+        }
+    });
+
     function ShorterComp(idComp){
         return reduceCompetences.find(x => x.id === idComp);
     }
+
     if(comp.category === categorySelected){
-        return ( <div className="card" key={comp.title}>
+        return ( <div key={comp.title} className={css(styles.cardAnimation)+" card"}>
                     <div className="box">
                     <div className="percent">
                         <svg className='reduce' >
