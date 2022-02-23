@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-lou-bege/static/css/main.8e756aec.css",
-    "main.js": "/cv-lou-bege/static/js/main.8a7c7e29.js",
+    "main.js": "/cv-lou-bege/static/js/main.e745a960.js",
     "static/js/787.dc538fe8.chunk.js": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js",
     "static/media/Sci-fi particles.mp4": "/cv-lou-bege/static/media/Sci-fi particles.ed833f0785bd5a457415.mp4",
     "static/media/Candy Animation.mp4": "/cv-lou-bege/static/media/Candy Animation.e0f39b51de2c580b7ff1.mp4",
@@ -20,6 +20,7 @@
     "static/media/Santa Gifts.png": "/cv-lou-bege/static/media/Santa Gifts.08e1210602020666df9d.png",
     "static/media/Cartoon Building.png": "/cv-lou-bege/static/media/Cartoon Building.b20d431da9877512e1d8.png",
     "static/media/Ornament.png": "/cv-lou-bege/static/media/Ornament.66b055d33b531b40d78c.png",
+    "static/media/Plants Curves.png": "/cv-lou-bege/static/media/Plants Curves.394a19ecba66760f3483.png",
     "static/media/Boolean Modeling.png": "/cv-lou-bege/static/media/Boolean Modeling.0fcfac4a44209a6922a7.png",
     "static/media/Oxygen Container.png": "/cv-lou-bege/static/media/Oxygen Container.45bf14548a7e2ce056a9.png",
     "static/media/Sneakers.png": "/cv-lou-bege/static/media/Sneakers.e6746e900bd8b3011a9a.png",
@@ -41,11 +42,11 @@
     "static/media/lou_bege.jpg": "/cv-lou-bege/static/media/lou_bege.00f9255250760e741d61.jpg",
     "index.html": "/cv-lou-bege/index.html",
     "main.8e756aec.css.map": "/cv-lou-bege/static/css/main.8e756aec.css.map",
-    "main.8a7c7e29.js.map": "/cv-lou-bege/static/js/main.8a7c7e29.js.map",
+    "main.e745a960.js.map": "/cv-lou-bege/static/js/main.e745a960.js.map",
     "787.dc538fe8.chunk.js.map": "/cv-lou-bege/static/js/787.dc538fe8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e756aec.css",
-    "static/js/main.8a7c7e29.js"
+    "static/js/main.e745a960.js"
   ]
 }
